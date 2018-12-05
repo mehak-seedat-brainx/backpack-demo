@@ -19,4 +19,5 @@ Route::group([
     CRUD::resource('monster', 'MonsterCrudController');
     CRUD::resource('icon', 'IconCrudController');
     CRUD::resource('product', 'ProductCrudController');
+    CRUD::resource('tag', 'TagCrudController');
 }); // this should be the absolute last line of this file

@@ -15,6 +15,7 @@
       <li><a href="{{ backpack_url('article') }}"><i class="fa fa-newspaper-o"></i> <span>Articles</span></a></li>
       <li><a href="{{ backpack_url('category') }}"><i class="fa fa-list"></i> <span>Categories</span></a></li>
       <li><a href="{{ backpack_url('tag') }}"><i class="fa fa-tag"></i> <span>Tags</span></a></li>
+        <li><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/posts') }}"><i class="fa fa-table"></i> Posts</a></li>
     </ul>
 </li>
 
@@ -40,3 +41,4 @@
       <li><a href="{{ backpack_url('setting') }}"><i class="fa fa-cog"></i> <span>Settings</span></a></li>
     </ul>
 </li>
+<li><a href='{{ backpack_url('tag') }}'><i class='fa fa-tag'></i> <span>Tags</span></a></li>
